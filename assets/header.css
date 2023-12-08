@@ -35,6 +35,16 @@
   /* styles */
   box-shadow: 18px 18px #81BE83;
   transition: width 0.3s, height 0.3s;
+  transition: 2s;
+  animation-duration: 3s;
+  animation-name: slidein;
+  
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 50%;
+  }
 }
 .header button:hover{
   width: 240px;
