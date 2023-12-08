@@ -34,8 +34,8 @@
   border: none;
   /* styles */
   box-shadow: 18px 18px #81BE83;
-  transition: width 0.3s, height 0.3s;
-  transition: 2s;
+  /* transition: width 0.3s, height 0.3s;
+  transition: 1s; */
   animation-duration: 3s;
   animation-name: slidein;
   
