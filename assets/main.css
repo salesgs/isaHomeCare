@@ -16,8 +16,7 @@
   height: 122px;
   padding: 15px;
   background-image: url("../assets/images/belle.jpeg");
-  background-size: cover;
- 
+  background-size: cover; 
 }
 .links{
   display: flex;
@@ -31,4 +30,64 @@
 }
 #phone{
   width: 32px;
+}
+.about{
+  display: block;
+  min-height: 100vh; 
+  /* flex-box */
+  display: flex;
+  flex-direction: column;
+}
+.about__text{
+  width: 40%;
+  height: 327px;
+  margin-left: 76px;
+  background-color: #FCF8F8;
+  box-shadow: 18px 18px 18px #07FC4B;  
+  /* flex-box */
+  display: flex;
+  justify-content: space-around;
+}
+.about__services{
+  background-color: #FCF8F8;
+  width: 40%;
+  height: 327px;
+  margin-top: -32px;
+  margin-right: 76px;
+  align-self: flex-end;
+  box-shadow: 18px 18px 18px #07FC4B;
+  margin-bottom: 100px; 
+  /* flex-box */
+ display: flex;
+ justify-content: space-around;
+}
+.about__text h1{
+  text-transform: uppercase;
+}
+.about__services h1{
+  text-transform: uppercase;
+}
+@media(max-width:970px){
+  .about__services{ 
+    margin: 32px;
+    margin-right: 76px;
+  }
+}
+@media(max-width:660px){
+  .about__text{
+   width: 60%;
+   margin-left: 36px;
+   margin: 20px auto;
+   
+  }
+  .about__services{
+    margin-top: 42px;
+    width: 60%;
+    margin: 34px auto; 
+  }
+  .about{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 34px;
+  }
 }

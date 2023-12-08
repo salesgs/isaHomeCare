@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="./assets/header.css">
   <link rel="stylesheet" href="./assets/main.css">
+  <link rel="stylesheet" href="./assets/footer.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
@@ -15,15 +16,15 @@
   <div class="container">
     <header class="item header">
       <button>
-        <a href="#" class="links">Sobre</a>
+        <a href="#about" class="links">Sobre</a>
         <img src="./assets/images/text.png" alt="text" id="text">
       </button>
       <button>
-        <a href="#" class="links">Serviços</a>
+        <a href="#services" class="links">Serviços</a>
         <img src="./assets/images/nurse.png" alt="nurse" id="nurse">   
       </button>
       <button>
-        <a href="#" class="links">Contatos</a>   
+        <a href="#contacts" class="links">Contatos</a>   
         <img src="./assets/images/phone.png" alt="phone" id="phone">
       </button>
     </header>
@@ -34,8 +35,29 @@
            <!-- backroundImage display Block -->
         </section>
       </div>
+      <div class="about" id="about">
+         <section class="about__text">
+           <h1>Sobre</h1>
+          
+         </section>
+         <section class="about__services" id="services">
+           <h1>Serviços</h1>
+         </section>
+        </div>
     </main>
-    <footer class="item footer"></footer>
+    <footer class="item footer">
+      <div class="contacts">
+        <section class="contacts__link" id="contacts">
+            <h1>Contatos</h1>
+            <img src="./assets/images/phone.png" alt="">
+            <h3>Clique em um dos ícones abaixo para entrar em contato comigo !</h3>
+            <ul class="contactUrls">
+               <li><a href="https://wa.me/55(71)996406570 " target="_blank"><img src="./assets/images/wh.png" alt="wh" id="wh"></a></li>
+               <li><a href="https://www.linkedin.com/in/isabelle-santos-6aa767182?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="./assets/images/in.png" alt="in" id="in"></a></li>
+            </ul>
+        </section>
+      </div>
+    </footer>
   </div>
 </body>
 </html>
