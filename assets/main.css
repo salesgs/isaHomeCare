@@ -115,14 +115,14 @@
 }
 @media(max-width:660px){
   .about__text{
-   width: 60%;
+   width: 80%;
    margin-left: 36px;
    margin: 20px auto;
    
   }
   .about__services{
     margin-top: 42px;
-    width: 60%;
+    width: 80%;
     margin: 34px auto; 
   }
   .about{
