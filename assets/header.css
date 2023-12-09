@@ -42,7 +42,7 @@
   border: none;
   /* styles */
   box-shadow: 18px 18px #07FC4B;
-  transition: width 0.3s, height 0.3s;
+  /* transition: width 0.3s, height 0.3s; */
   transition: 2s;
   animation-duration: 3s;
   animation-name: slidein;
@@ -54,11 +54,11 @@
     width: 50%;
   }
 }
-.header button:hover{
+/* .header button:hover{
   width: 140px;
   height: 100px;
   cursor: pointer;
-}
+} */
 .header a{ 
   text-decoration: none;
   text-transform: uppercase;
@@ -99,6 +99,7 @@
     width: 200px;
     display: flex;
     padding: 22px;
+      border-radius: 20px;
    }
   #enfeBelle{
     width: 100%;
