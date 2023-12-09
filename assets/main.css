@@ -53,6 +53,13 @@
 .about__text h1{
   text-transform: uppercase;
   padding: 12px;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 28px; 
+  box-shadow: 10px 10px  10px;
+  margin-bottom: 22px;
+}
+.about__text #text{
+  width: 42px;
 }
 .about__text .textParagrapy p{
    padding: 12px;
@@ -74,6 +81,11 @@
 }
 .about__services h1{
   text-transform: uppercase;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 28px; 
+  box-shadow: 10px 10px  10px;
+  margin-bottom: 22px;
+
 }
 .about__services{
   background-color: #FCF8F8;
@@ -97,7 +109,7 @@
 }
 .servicesList li{
   padding: 22px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 18px;
   text-align: center;
 }
