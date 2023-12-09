@@ -14,11 +14,10 @@
   flex-grow: 2;
 }
 .header{
-  height: auto;
+  height: 20vh;
   background-color: #CDFFD2;
   
   /* flex-box */
-  height: 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,8 +33,8 @@
   border: none;
   /* styles */
   box-shadow: 18px 18px #81BE83;
-  /* transition: width 0.3s, height 0.3s;
-  transition: 1s; */
+  transition: width 0.3s, height 0.3s;
+  transition: 2s;
   animation-duration: 3s;
   animation-name: slidein;
   
@@ -45,6 +44,11 @@
     margin-left: 100%;
     width: 50%;
   }
+}
+.header button:hover{
+  width: 140px;
+  height: 100px;
+  cursor: pointer;
 }
 .header a{ 
   text-decoration: none;
@@ -69,9 +73,13 @@
     flex-direction: column;
     gap: 20px;
     padding: 22px;
+    background-image: url("./images/enfeBelle.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
   }
   .header button{
-   box-shadow: 12px 12px #81BE83;
+    box-shadow: 12px 12px #81BE83;
   }
   .header a{
     font-size: 22px;
