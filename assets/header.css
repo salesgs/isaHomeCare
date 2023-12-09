@@ -46,11 +46,6 @@
     width: 50%;
   }
 }
-.header button:hover{
-  width: 240px;
-  height: 100px;
-  cursor: pointer;
-}
 .header a{ 
   text-decoration: none;
   text-transform: uppercase;

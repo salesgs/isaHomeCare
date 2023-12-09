@@ -40,18 +40,45 @@
 }
 .about__text{
   width: 40%;
-  height: 327px;
+  height: auto;
   margin-left: 76px;
   background-color: #FCF8F8;
   box-shadow: 18px 18px 18px #07FC4B;  
   /* flex-box */
   display: flex;
-  justify-content: space-around;
+  justify-content: center ;
+  flex-direction: column;
+  align-items: center;
+}
+.about__text h1{
+  text-transform: uppercase;
+  padding: 12px;
+}
+.about__text .textParagrapy p{
+   padding: 12px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+}
+.textCourses{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ gap: 20px;
+}
+.textCourses li{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+ ;
+ list-style: none;
+ padding-bottom: 12px;
+}
+.about__services h1{
+  text-transform: uppercase;
 }
 .about__services{
   background-color: #FCF8F8;
   width: 40%;
-  height: 327px;
+  height: auto;
   margin-top: -32px;
   margin-right: 76px;
   align-self: flex-end;
@@ -59,14 +86,27 @@
   margin-bottom: 100px; 
   /* flex-box */
  display: flex;
- justify-content: space-around;
-}
-.about__text h1{
-  text-transform: uppercase;
+ flex-direction: column;
+ align-items: center;
 }
 .about__services h1{
-  text-transform: uppercase;
+  padding: 22px;
 }
+.about__services .servicesList{
+  list-style: none;
+}
+.servicesList li{
+  padding: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+.servicesList{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media(max-width:970px){
   .about__services{ 
     margin: 32px;
@@ -89,5 +129,11 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 34px;
+  }
+}
+@media(max-width:420px){
+  .textCourses li{
+    text-align: center;
+    padding: 12px;
   }
 }
