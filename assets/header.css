@@ -13,8 +13,13 @@
 .main{
   flex-grow: 2;
 }
+
+
+
+
+/*  */
 .header{
-  height: 20vh;
+  height: 40vh;
   background-color: #CDFFD2;
   
   /* flex-box */
@@ -68,18 +73,23 @@
  }
 }
 @media(max-width:680px){
+ 
   .header{
-    height: auto;
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
     flex-direction: column;
+    align-items: start;
+  
     gap: 20px;
     padding: 22px;
     background-image: url("./images/enfeBelle.jpeg");
     background-size: cover;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat; 
   }
   .header button{
     box-shadow: 12px 12px #81BE83;
+    display: none;  
   }
   .header a{
     font-size: 22px;
