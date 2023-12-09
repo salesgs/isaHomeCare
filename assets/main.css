@@ -75,7 +75,8 @@
 .textCourses li{
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
- ;
+  text-transform: uppercase;
+  
  list-style: none;
  padding-bottom: 12px;
 }
@@ -110,8 +111,9 @@
 .servicesList li{
   padding: 22px;
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   text-align: center;
+  text-transform: uppercase;
 }
 .servicesList{
   display: flex;
